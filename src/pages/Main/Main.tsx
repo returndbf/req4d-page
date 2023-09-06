@@ -5,7 +5,7 @@ import {Outlet} from "react-router-dom";
 import {getRouterTitle, router} from "../../router";
 import  {PartialRouterItem} from "../../types";
 import {useNavigate,useLocation} from "react-router-dom";
-import React, {useEffect, useState} from "react";
+import React from "react";
 
 const {Header, Content, Footer, Sider} = Layout;
 
