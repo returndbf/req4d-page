@@ -1,0 +1,24 @@
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+width:150px;
+    padding:10px 0;
+}
+
+.menu-container{
+    padding-left:15px;
+    margin-top:30px
+}
+.menu-topic{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom:20px
+}
+.menu-item{
+    font-size: 15px;
+    margin-bottom:15px;
+    cursor: pointer;
+}
