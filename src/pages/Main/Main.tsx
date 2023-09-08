@@ -6,6 +6,7 @@ import {getRouterTitle, router} from "../../router";
 import  {PartialRouterItem} from "../../types";
 import {useNavigate,useLocation} from "react-router-dom";
 import React from "react";
+import {Header as PageHeader} from "../Header/Header.tsx"
 
 const {Header, Content, Footer, Sider} = Layout;
 
@@ -65,7 +66,7 @@ const Main: React.FC = () => {
                 </Sider>
                 <Layout>
                     <Header style={{padding: 0}}>
-                        {getRouterTitle(router, pathname)}
+                        <PageHeader title={getRouterTitle(router, pathname)}></PageHeader>
                     </Header>
                     <Content style={{background: "white"}}>
                         <Outlet/>
